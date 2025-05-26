@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <heading>Document</heading>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar" class="navbar">
+        <img
+          src="photo_6122884809035467158_y.jpg"
+          alt="Logo"
+          height="90"
+          width="90"
+        />
+
+        <!-- Hamburger icon for mobile -->
+        <div class="hamburger">&#9776;</div>
+
+        <ul id="navbtn">
+          <li class="navnav"><a href="index.html">Home</a></li>
+          <li class="navnav"><a href="about.html">About Us</a></li>
+          <li class="navnav"><a href="#">Our Team</a></li>
+          <li class="navnav"><a href="#">Join Us</a></li>
+          <li class="navnav"><a href="#">Our Goals</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <div class="introviedo" id="introviedo">
+            <video autoplay  muted controls >
+                <source src="online session viedos/session1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="description" id="description">
+            <div class="head" id="head">
+                <h2>what is themindfulreaders</h2>
+            </div>
+            <div class="defination" id="defination">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ab minima incidunt a. Aliquam dignissimos, aut esse provident tenetur quia velit, maiores magnam beatae cum dicta inventore dolorum voluptatem? Quisquam consectetur dolorem nobis, modi aperiam quis rerum recusandae. Distinctio, beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cupiditate vero atque odio molestiae ut delectus numquam repellendus, eos fugit iusto placeat hic ad eius sapiente officiis neque veritatis voluptas porro suscipit. Magni debitis quos itaque delectus voluptatem accusantium laborum.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <h3>The Mindful Readers</h3>
+        <p>Connecting curious minds through knowledge and stories.</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.discord.com" target="_blank"
+            ><i class="fab fa-discord"></i
+          ></a>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:contact@themindfulreaders.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <p class="copyright">
+          © 2025 The Mindful Readers. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
